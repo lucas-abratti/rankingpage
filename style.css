@@ -1,0 +1,163 @@
+:root{
+    --primary-color: rgba(23, 26, 33, 1);
+    --secondary-color: rgb(102, 192, 244);
+    --secondary-color-light: rgb(0, 162, 255);
+}
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+header{
+    margin: 5vh;
+    font-weight: 1000;
+    text-shadow: 2px 2px 15px var(--secondary-color-light);
+    p{
+        font-size: 0.5rem;
+    }
+}
+
+.row-display{
+    margin-top: 1000xp;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5vh;
+    font-weight: 100;
+    overflow: hidden;
+    h1{
+        text-shadow: 0px 0px 0px var(--secondary-color);
+        font-size: 1rem;
+        transition: all 0.5s;
+    }
+}
+
+
+.row-display:hover{
+    h1{
+        text-shadow: 0px 0px 10px var(--secondary-color);
+        color: var(--secondary-color-light);
+        font-size: 1.05rem;
+    }
+}
+
+.cards-container{
+    width: 80vw;
+    height: 20vw;
+    max-width: 1000px;
+    max-height: 250px;
+    display: flex;
+    margin: auto;
+    padding: 1%;
+}
+
+.card{
+    height: 100%;
+    width: 25%;
+    background-image: url("./img/cyberpunk.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    z-index: 0;
+    transition: all 0.5s;  
+    border-radius: 2px;
+}
+
+.cs2{
+    background-image: url("./img/cs2.jpg");
+}
+
+.cyberpunk{
+    background-image: url("./img/cyberpunk.jpg");
+}
+
+.baldursgate{
+    background-image: url("./img/baldursgate.jpg");
+}
+
+.grayzone{
+    background-image: url("./img/greyzone.jpg");
+}
+
+.hades{
+    background-image: url("./img/hades.jpg");
+}
+
+.rainbowsix{
+    background-image: url("./img/rainbowsix.jpg")
+}
+
+.eldenring{
+    background-image: url("./img/eldenring.jpg")
+}
+
+.vrising{
+    background-image: url("./img/vrising.jpg")
+}
+
+.eurotruck{
+    background-image: url("./img/eurotruck.jpg")
+}
+
+.animalwell{
+    background-image: url("./img/animalwell.jpg")
+}
+
+.stardewvalley{
+    background-image: url("./img/stardewvalley.jpg")
+}
+
+.buckshotrulette{
+    background-image: url("./img/buckshotrulette.jpg")
+}
+
+.inscryption{
+    background-image: url("./img/inscryption.jpg")
+}
+
+.hogwarts{
+    background-image: url("./img/hogwarts.jpg")
+}
+
+.unltimatechickenhorse{
+    background-image: url("./img/unltimatechickenhorse.jpg")
+}
+
+.partyanimals{
+    background-image: url("./img/partyanimals.jpg")
+}
+
+.vampiresurvivors{
+    background-image: url("./img/vampiresurvivors.jpg")
+}
+
+.sifu{
+    background-image: url("./img/sifu.jpg")
+}
+
+.danceoffireandice{
+    background-image: url("./img/danceoffireandice.jpg")
+}
+.downhill{
+    background-image: url("./img/downhill.jpg")
+}
+
+.ittakestwo{
+    background-image: url("./img/ittakestwo.jpg")
+}
+
+.card:hover{
+    width: 100%;
+    box-shadow: 0px 0px 10px var(--secondary-color);
+    margin: 0% 0.5%;
+    z-index: 5;
+    border-radius: 10px;
+}
+
+footer{
+    font-size: 0.3rem;
+    margin-bottom: 50px;
+}
